@@ -4,7 +4,7 @@
   # Nixpkgs / NixOS version to use.
   inputs.nixpkgs.url = "https://channels.nixos.org/nixos-21.05/nixexprs.tar.xz";
 
-  inputs.import-cargo.url = github:edolstra/import-cargo;
+  inputs.import-cargo.url = "github:edolstra/import-cargo";
 
   outputs = { self, nixpkgs, import-cargo }:
     let
