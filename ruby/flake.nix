@@ -3,7 +3,7 @@
   # Useage: see README.md
   
   inputs = {
-    nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05";
+    nixpkgs.url = "https://channels.nixos.org/nixos-24.05/nixexprs.tar.xz";
     flake-utils.url = "github:numtide/flake-utils";
 };
 
