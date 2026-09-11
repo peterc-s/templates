@@ -1,7 +1,7 @@
 {
   description = "A simple LaTeX template for writing documents with latexmk";
   inputs = {
-    nixpkgs.url = "https://channels.nixos.org/nixpkgs-unstable/nixexprs.tar.xz";
+    nixpkgs.url = "https://channels.nixos.org/nixpkgs-unstable/nixexprs.tar.zst";
     flake-utils.url = "github:numtide/flake-utils";
   };
 
